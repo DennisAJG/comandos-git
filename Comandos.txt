@@ -34,3 +34,8 @@ OBS: usado para remover arquivos adicionados ao repositório local
 git rm --cached folder -> remove um arquivo específico do repositório local
 git rm --cached -r . -> remove todos os arquivos de forma recursiva
 
+
+--------------------------------------------------------------------------------------------------------
+5 - Salvando mudanças:
+OBS: usado para salvar as mudanças no repositório local
+git commit -m "mensagem do commit" -> salva as mudanças com uma mensagem
