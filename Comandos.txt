@@ -58,3 +58,6 @@ git diff --staged -> exibe as alterações para arquivo já preparados ou não
 
 
 --------------------------------------------------------------------------------------------------------
+7 - Histórico de commits:
+OBS: usado para ver o histórico de commits
+git log -> exibe o histórico de commits
