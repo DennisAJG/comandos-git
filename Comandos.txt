@@ -39,3 +39,22 @@ git rm --cached -r . -> remove todos os arquivos de forma recursiva
 5 - Salvando mudanças:
 OBS: usado para salvar as mudanças no repositório local
 git commit -m "mensagem do commit" -> salva as mudanças com uma mensagem
+
+
+--------------------------------------------------------------------------------------------------------
+Quatro estados:
+Untracked ->
+Unmodified ->
+Modified ->
+staged ->
+
+
+--------------------------------------------------------------------------------------------------------
+6 - Visualizando alterações:
+OBS: usado para ver as mudanças feitas nos arquivos no repositório local
+git diff -> exibe as alterações feitas nos arquivos
+git diff --cached -> exibe as alterações para arquivo já preparados ou não 
+git diff --staged -> exibe as alterações para arquivo já preparados ou não 
+
+
+--------------------------------------------------------------------------------------------------------
