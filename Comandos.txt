@@ -26,3 +26,11 @@ git init -> cria um novo repositório vazio
 OBS: usado para adicionar alterações no repositório local
 git status -> usado para visualizar os arquivos que estão em Untracked ou not commit
 git add -> adiciona todos os arquivos alterados para serem versionados
+
+
+--------------------------------------------------------------------------------------------------------
+4 - Removendo arquivos adicionados:
+OBS: usado para remover arquivos adicionados ao repositório local
+git rm --cached folder -> remove um arquivo específico do repositório local
+git rm --cached -r . -> remove todos os arquivos de forma recursiva
+
