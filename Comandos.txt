@@ -12,4 +12,17 @@ git config --global user.name -> valida quem é o user
 git config --global user.email -> valida quem é o email do user
 
 git config --list -> listas todas as configurações do git 
+git config --global init.defaultBranch main -> Deixa definido como default uma branch informada
 
+--------------------------------------------------------------------------------------------------------
+2 - Criando um repositório local
+OBS: usado para inicializar um repositório local
+git init -> cria um novo repositório vazio
+
+
+
+--------------------------------------------------------------------------------------------------------
+3 - Adicionando mudanças:
+OBS: usado para adicionar alterações no repositório local
+git status -> usado para visualizar os arquivos que estão em Untracked ou not commit
+git add -> adiciona todos os arquivos alterados para serem versionados
