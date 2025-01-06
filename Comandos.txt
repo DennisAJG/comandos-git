@@ -13,6 +13,8 @@ git config --global user.email -> valida quem é o email do user
 
 git config --list -> listas todas as configurações do git 
 git config --global init.defaultBranch main -> Deixa definido como default uma branch informada
+git config --global core.editor "code --wait" -> deixa configurado o vscode como editor de texto pro git 
+
 
 --------------------------------------------------------------------------------------------------------
 2 - Criando um repositório local
@@ -75,4 +77,12 @@ git log --shortstat
 8 - Alterando commits:
 OBS: usado para voltar para commits anteriores
 git commit -amend -m "Altera o nome do commit" -> altera a mensagem do ultimo commit
+git commit -amend --no-edit -> envia o arquivo para o commit 
 
+
+--------------------------------------------------------------------------------------------------------
+9 - Usando commits anteriores:
+OBS: usado para voltar para commits anteriores
+git checkout rash-do-commit -> volta para o commit selecionado
+git checkout folder -> reverte o arquivo para a ultima versão
+git clean -f -> usado para limpar arquivos não rastreaveis 
