@@ -74,3 +74,5 @@ git log --shortstat
 --------------------------------------------------------------------------------------------------------
 8 - Alterando commits:
 OBS: usado para voltar para commits anteriores
+git commit -amend -m "Altera o nome do commit" -> altera a mensagem do ultimo commit
+
