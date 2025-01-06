@@ -20,7 +20,6 @@ OBS: usado para inicializar um repositório local
 git init -> cria um novo repositório vazio
 
 
-
 --------------------------------------------------------------------------------------------------------
 3 - Adicionando mudanças:
 OBS: usado para adicionar alterações no repositório local
