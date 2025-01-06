@@ -1,0 +1,15 @@
+Comandos do git para desenvolvimento
+
+git --version -> Exibe a versão do git.
+
+
+1 - Configuração de usuário
+OBS: usado para rastreabilidade de quem vem fazendo o versionamento do código no projeto
+git config --global user.name "Dennis Augusto" ->
+git config --global user.email "dennis.gusmao@outlook.com" ->
+
+git config --global user.name -> valida quem é o user
+git config --global user.email -> valida quem é o email do user
+
+git config --list -> listas todas as configurações do git 
+
