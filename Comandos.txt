@@ -60,3 +60,12 @@ git diff --staged -> exibe as alterações para arquivo já preparados ou não
 7 - Histórico de commits:
 OBS: usado para ver o histórico de commits
 git log -> exibe o histórico de commits
+
+VARIAÇÕES DO GIT LOGS:
+git log --online -> exibe o histórico de commits apenas mostrando o rash e o nome do commit 
+git log --graph -> exibe o histórico de commits como um grafico
+git log -1 -> exibe apenas um log 
+git log --online -1 
+git log -p -> exibe os logs com o path do commit
+git log --stat -> exibe os arquivos alterados do log
+git log --shortstat
