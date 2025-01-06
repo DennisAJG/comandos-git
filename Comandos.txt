@@ -69,3 +69,8 @@ git log --online -1
 git log -p -> exibe os logs com o path do commit
 git log --stat -> exibe os arquivos alterados do log
 git log --shortstat
+
+
+--------------------------------------------------------------------------------------------------------
+8 - Alterando commits:
+OBS: usado para voltar para commits anteriores
