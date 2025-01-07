@@ -95,3 +95,40 @@ git reset --hard -> ele vai limpar tudo, mesmo os arquivos estejam no ambiente d
 
 
 --------------------------------------------------------------------------------------------------------
+10 - Iginorando arquivos:
+OBS: usado para iginorar alguns arquivos que não precisam ser enviados para o repositório
+
+.gitignore -> arquivo usado para ignorar arquivos que não vão para a área de preparação.
+
+git update-index --skip-worktree index.html -> faz com que o git para de olhar para o arquivo index.html
+
+
+--------------------------------------------------------------------------------------------------------
+11 - Clonando o repositório:
+git clone gitrepo gitnew -> clona de um repositório local 
+git clone https://... -> clone de um repositório remoto
+
+
+--------------------------------------------------------------------------------------------------------
+12 - Endereço de repositório:
+git remote -v 
+origin https://... (fetch) -> busca informações
+origin https://... (push) -> envia informações
+
+git remote add origin https://... -> faz o processo adicionar a pasta ao repositório remoto 
+OBS:
+o git remote pode ser usado para trabalhar com varios repositório locals
+git remote add abc http://.2 
+
+git remote set-url origin https://... -> faz o processo de referencia do repositório locals
+
+
+--------------------------------------------------------------------------------------------------------
+13 - Salvando mudanças no repositório:
+git push -> envia o projeto commitado local para o remoto 
+
+
+--------------------------------------------------------------------------------------------------------
+14 - Baixando a última versão do projeto:
+git pull -> atualiza o projeto coletando a ultima versão do projeto remoto.
+
