@@ -86,3 +86,12 @@ OBS: usado para voltar para commits anteriores
 git checkout rash-do-commit -> volta para o commit selecionado
 git checkout folder -> reverte o arquivo para a ultima versão
 git clean -f -> usado para limpar arquivos não rastreaveis 
+
+git rm --cached file -> usado para remover um arquivo na área de preparação se existir ou não commits no repositório
+git restore --staged file -> usado para remover um arquivos se já houver históricos
+
+git reset --hard -> ele vai limpar tudo, mesmo os arquivos estejam no ambiente de preparação ou não. 
+
+
+
+--------------------------------------------------------------------------------------------------------
