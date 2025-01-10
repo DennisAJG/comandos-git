@@ -132,3 +132,18 @@ git push -> envia o projeto commitado local para o remoto
 14 - Baixando a última versão do projeto:
 git pull -> atualiza o projeto coletando a ultima versão do projeto remoto.
 
+
+--------------------------------------------------------------------------------------------------------
+15 - Fork:
+O fork faz o processo de copia de uma repositório remoto. 
+
+OBS: 
+Quando o repositório original fizer um update, o repositório fork será notificado, dai você pode atualizar também ou não. 
+
+
+--------------------------------------------------------------------------------------------------------
+16 - Pull request:
+É uma proposta de mudança que você fez no projeto. 
+Exemplo:
+você fez o fork do projeto A, e fez uma mudança no projeto, 
+você pode enviar um pull request para o projeto e ver se vai ser aprovado ou não. 
