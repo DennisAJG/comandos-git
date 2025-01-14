@@ -181,6 +181,7 @@ git checkout -b new_branch -> além de criar a nova branch e automaticamente já
 git switch old_branch -> faz a troca da branch 
 git switch - -> volta para branch anterior após a mudança 
 git switch -c new_branch -> cria uma nova branch
+git checkout -f branch -> faz o processo de troca de branch limpa (mudanças salvas ou não)
 
 
 ---------------------------------------------------------------------------------------------------------
