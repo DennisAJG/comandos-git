@@ -147,3 +147,22 @@ Quando o repositório original fizer um update, o repositório fork será notifi
 Exemplo:
 você fez o fork do projeto A, e fez uma mudança no projeto, 
 você pode enviar um pull request para o projeto e ver se vai ser aprovado ou não. 
+
+
+---------------------------------------------------------------------------------------------------------
+17 - Issues, milestones, labels:
+Conceito de Issues:
+Usado para relatar um problema dentro do projeto 
+
+Conceito de Labels:
+Usado para categorizar os problemas. 
+
+Conceito de milestones:
+Usado para atingir marcos pro problema. 
+
+
+----------------------------------------------------------------------------------------------------------
+Arquivo README:
+Usado para documentação do projeto.
+Principal link para usar como base o uso do README.md:
+https://dillinger.io/
