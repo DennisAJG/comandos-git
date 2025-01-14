@@ -185,6 +185,9 @@ git checkout -f branch -> faz o processo de troca de branch limpa (mudanças sal
 
 
 ---------------------------------------------------------------------------------------------------------
-
-
+Detached HEAD:
+O conceito de Detached HEAD no Git ocorre quando o ponteiro HEAD não está apontando para uma branch, 
+mas sim diretamente para um commit específico. Normalmente, o HEAD aponta para a branch atual em que você está, mas, 
+em um estado de "detached HEAD", o HEAD aponta para um commit isolado, 
+o que significa que você não está mais trabalhando em uma branch convencional.
 
