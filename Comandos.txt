@@ -198,3 +198,11 @@ git push --set-upstream origin name_branch -> comando usado para enviar uma bran
 não exista. 
 git push -u origin name_branch -> comando usado para enviar uma branch do repositório local para o remoto caso o mesmo não exista.
 
+
+------------------------------------------------------------------------------------------------------------
+Removendo uma branch local:
+git branch -d name_branch -> deleta uma branch
+git branch -D name_branch -> Força a deletação da branch
+
+Removendo uma branch remota:
+git push --delete origin name_branch -> deleta uma branch remota (Não remove a local)
