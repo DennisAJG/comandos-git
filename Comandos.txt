@@ -166,3 +166,24 @@ Arquivo README:
 Usado para documentação do projeto.
 Principal link para usar como base o uso do README.md:
 https://dillinger.io/
+
+---------------------------------------------------------------------------------------------------------
+Branchs:
+É uma ramificação no projeto que permite que funcionalidades sejam desenvolvidas separadamente sem 
+impactar funcionalidades estáveis no projeto.
+
+Criando uma branch:
+git branch -> lista as branchs disponiveis 
+git branch --list 
+git branch new_branch -> cria uma nova branch
+git checkout new_branch -> acessa a nova branch criada
+git checkout -b new_branch -> além de criar a nova branch e automaticamente já passa para ela.
+git switch old_branch -> faz a troca da branch 
+git switch - -> volta para branch anterior após a mudança 
+git switch -c new_branch -> cria uma nova branch
+
+
+---------------------------------------------------------------------------------------------------------
+
+
+
