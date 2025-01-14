@@ -191,3 +191,8 @@ mas sim diretamente para um commit específico. Normalmente, o HEAD aponta para 
 em um estado de "detached HEAD", o HEAD aponta para um commit isolado, 
 o que significa que você não está mais trabalhando em uma branch convencional.
 
+
+----------------------------------------------------------------------------------------------------------
+Enviando uma branch para o servidor remoto:
+git push --set-upstream origin name_branch -> comando usado para enviar uma branch do repositório local para o remoto caso o mesmo 
+não exista. 
